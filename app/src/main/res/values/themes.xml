@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GifStudio" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent_purple</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/bg_page</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+        <item name="android:textColorSecondary">@color/text_sub</item>
+        <item name="materialAlertDialogTheme">@style/Theme.GifStudio.Dialog</item>
+    </style>
+
+    <style name="Theme.GifStudio.Dialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+    </style>
+
+    <style name="Theme.GifStudio.Dark" parent="Theme.GifStudio">
+        <item name="android:statusBarColor">@color/bg_preview</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/bg_preview</item>
+        <item name="android:windowBackground">@color/bg_preview</item>
+    </style>
+</resources>

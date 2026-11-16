@@ -1,0 +1,22 @@
+# Gradle / Android
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+*.hprof
+captures/
+.externalNativeBuild/
+.cxx/
+.idea/
+*.iml
+.DS_Store
+
+# 签名证书与打包产物不进仓库（release APK 通过 GitHub Releases 分发）
+keystore/
+apk/
+*.jks
+*.keystore
+
+# 宣传海报原始大图（官网使用 docs/assets/ 下的压缩版）
+docs/posters/

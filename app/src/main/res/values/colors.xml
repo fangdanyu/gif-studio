@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF6B3D</color>
+    <color name="primary_dark">#E2541F</color>
+    <color name="accent_purple">#7C4DFF</color>
+    <color name="accent_blue">#3D7BFF</color>
+    <color name="bg_page">#FFFFFF</color>
+    <color name="bg_card">#F7F8FA</color>
+    <color name="bg_preview">#111318</color>
+    <color name="text_main">#1B1D22</color>
+    <color name="text_sub">#8A8F99</color>
+    <color name="divider">#EDEFF3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
